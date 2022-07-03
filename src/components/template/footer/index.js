@@ -9,14 +9,14 @@ import './index.css'
 function Footer() {
     return(
         <Box className="footer">
-            <Box 
+            <Box
                 className="leftSide"
             >
                 <img src={Gengar} width="70%" className="image"/>
             </Box>
 
             <Box className="rigthSide">
-                <Typography 
+                <Typography
                     sx={{
                         mt: 2,
                         fontSize: 42,
@@ -28,13 +28,13 @@ function Footer() {
                 </Typography>
 
                 <img
-                    src="https://avatars.githubusercontent.com/u/51797012?v=4"
+                    src="https://avatars.githubusercontent.com/u/95048701"
                     alt='Imagem do desenvolvedor'
                     width="300px"
                     className="devImage"
                 />
 
-                <Typography 
+                <Typography
                     sx={{
                         mt: 2,
                         fontSize: 30,
@@ -42,12 +42,12 @@ function Footer() {
                     }}
                     className="footerTitle"
                 >
-                    <a href="https://github.com/otavioaraujo08" target="_blank">
-                        <GitHubIcon /> Github    
+                    <a href="https://github.com/orimarano" target="_blank">
+                        <GitHubIcon /> Github
                     </a>
                 </Typography>
 
-                <Typography 
+                <Typography
                     sx={{
                         mt: 1,
                         fontSize: 30,
@@ -55,12 +55,12 @@ function Footer() {
                     }}
                     className="footerTitle"
                 >
-                    <a href="https://www.linkedin.com/in/ot%C3%A1vio-araujo-77474b1ab" target="_blank">
+                    <a href="https://www.linkedin.com/in/oriana-marano/" target="_blank">
                         <LinkedInIcon /> Linkedin
                     </a>
                 </Typography>
 
-                <Typography 
+                <Typography
                     sx={{
                         mt: 1,
                         fontSize: 30,
@@ -72,7 +72,7 @@ function Footer() {
                         <ArticleIcon /> Documentação
                     </a>
                 </Typography>
-                
+
             </Box>
         </Box>
     )
