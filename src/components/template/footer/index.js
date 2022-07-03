@@ -24,7 +24,7 @@ function Footer() {
                     }}
                     className="footerTitle"
                 >
-                    Desenvolvido por Otávio Araujo
+                    Developed by Oriana Marano
                 </Typography>
 
                 <img
